@@ -7,6 +7,12 @@
   status = 302
   force  = true
 
+[[redirects]]
+  from = "https://www.deltazulu.com/dashboard"
+  to   = "https://zeox-studio.tail1e84a3.ts.net"
+  status = 302
+  force  = true
+
 [[headers]]
   for = "/*"
   [headers.values]
