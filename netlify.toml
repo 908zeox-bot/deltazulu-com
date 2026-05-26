@@ -1,6 +1,12 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/dashboard"
+  to   = "https://zeox-studio.tail1e84a3.ts.net"
+  status = 302
+  force  = true
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -8,9 +14,3 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-
-[[redirects]]
-  from = "https://www.deltazulu.com/*"
-  to   = "https://deltazulu.com/:splat"
-  status = 301
-  force  = true
