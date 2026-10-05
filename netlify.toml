@@ -1,17 +1,27 @@
 [build]
-  publish = "."
+  publish = "dist"
 
 [[redirects]]
   from = "/dashboard"
-  to   = "https://zeox-studio.tail1e84a3.ts.net"
+  to   = "https://100.104.213.86/"
   status = 302
   force  = true
 
 [[redirects]]
   from = "https://www.deltazulu.com/dashboard"
-  to   = "https://zeox-studio.tail1e84a3.ts.net"
+  to   = "https://100.104.213.86/"
   status = 302
   force  = true
+
+[[redirects]]
+  from = "/wine/michel-schlumberger"
+  to = "/#portfolio"
+  status = 301
+
+[[redirects]]
+  from = "/aviation/platte-valley-airpark"
+  to = "/#portfolio"
+  status = 301
 
 [[headers]]
   for = "/*"
